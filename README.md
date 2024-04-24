@@ -30,7 +30,7 @@ Through meticulous data cleaning, preparation, and fine-tuning of machine learni
 
 ## References:
 - Kaggle Dataset: [Bitcoin Price Trends with Indicators - 8 Years](https://www.kaggle.com/datasets/aspillai/bitcoin-price-trends-with-indicators-8-years/data)
-- Canva Design: [Link to Design](https://www.canva.com/design/DAGDT6k5w7s/hNjkh6q51VQXo9xNVmw11w/view?utm_content=DAGDT6k5w7s&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+- Canva Presentation Design: [Link to Presentation Slides](https://www.canva.com/design/DAGDT6k5w7s/hNjkh6q51VQXo9xNVmw11w/view?utm_content=DAGDT6k5w7s&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 - Golden Cross Strategy: [Investopedia](https://www.investopedia.com/terms/g/goldencross.asp)
 - K-fold Cross Validation: [Machine Learning Mastery](https://machinelearningmastery.com/k-fold-cross-validation/)
 - Bitcoin Market Cap: [Companies Market Cap](https://companiesmarketcap.com/assets-by-market-cap/)
