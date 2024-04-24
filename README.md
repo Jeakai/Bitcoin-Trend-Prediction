@@ -18,16 +18,23 @@ We created three new variables to aid in predicting the growth rate of Bitcoin: 
 
 We implemented three machine learning models: Logistic Regression, Gradient Boosting Classifier, and Random Forest Classifier. These models were chosen due to their ability to predict binary variables effectively.
 
-- **Logistic Regression**: Utilizes a mathematical formula to model the relationship between predictor variables and the probability of the binary outcome.
-- **Gradient Boosting Classifier**: Captures complex nonlinear relationships between predictor variables and the binary outcome by sequentially fitting new models to the residuals of previous models.
-- **Random Forest Classifier**: Handles large datasets and reduces the risk of overfitting through ensemble learning.
+- **Logistic Regression**: Utilizes a mathematical formula to model the relationship between predictor variables and the probability of the binary outcome. [Learn more](https://www.ibm.com/topics/logistic-regression)
+- **Gradient Boosting Classifier**: Captures complex nonlinear relationships between predictor variables and the binary outcome by sequentially fitting new models to the residuals of previous models. [Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+- **Random Forest Classifier**: Handles large datasets and reduces the risk of overfitting through ensemble learning. [Tutorial](https://www.datacamp.com/tutorial/random-forests-classifier-python)
 
-We split our dataset into training and test sets (80:20) and applied k-fold cross-validation to evaluate model performance. Based on precision scores, we selected the Random Forest Classifier for hyperparameter tuning, achieving an optimal accuracy score of 0.936 on the test set.
+We split our dataset into training and test sets (80:20) and applied k-fold cross-validation to evaluate model performance. Based on precision scores, we selected the Random Forest Classifier for hyperparameter tuning, achieving an optimal accuracy score of 0.936 on the test set. [Hyperparameter Tuning](https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74)
 
 ## Conclusion
 
 Through meticulous data cleaning, preparation, and fine-tuning of machine learning models, we achieved a consistent and high accuracy in predicting buy/sell signals based on the Golden Cross investment strategy. Feature importance analysis revealed that MACD significantly affects the model's predictions, emphasizing its importance for traders. However, we caution against relying solely on the model due to the potential impact of sentiment values on Bitcoin's movement.
 
-## Reference:
+## References:
 - Kaggle Dataset: [Bitcoin Price Trends with Indicators - 8 Years](https://www.kaggle.com/datasets/aspillai/bitcoin-price-trends-with-indicators-8-years/data)
 - Canva Design: [Link to Design](https://www.canva.com/design/DAGDT6k5w7s/hNjkh6q51VQXo9xNVmw11w/view?utm_content=DAGDT6k5w7s&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+- Golden Cross Strategy: [Investopedia](https://www.investopedia.com/terms/g/goldencross.asp)
+- K-fold Cross Validation: [Machine Learning Mastery](https://machinelearningmastery.com/k-fold-cross-validation/)
+- Bitcoin Market Cap: [Companies Market Cap](https://companiesmarketcap.com/assets-by-market-cap/)
+- Logistic Regression: [IBM](https://www.ibm.com/topics/logistic-regression)
+- Random Forest Classifier: [DataCamp](https://www.datacamp.com/tutorial/random-forests-classifier-python)
+- Hyperparameter Tuning: [Towards Data Science](https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74)
+
