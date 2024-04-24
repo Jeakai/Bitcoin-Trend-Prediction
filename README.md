@@ -1,4 +1,4 @@
-# Bitcoin Trading Bot with Machine Learning
+# Bitcoin Trend Prediction with Machine Learning
 
 ## Introduction
 
