@@ -1,4 +1,5 @@
 # Bitcoin Trend Prediction with Machine Learning
+This is our group assignment for SC1015 (Introduction to Data Science and Artificial Intelligence).
 
 ## Introduction
 
